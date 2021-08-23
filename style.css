@@ -1,0 +1,149 @@
+body {
+    padding: 10px;
+    border: 10px groove greenyellow;
+    background: url(../Assessment-1/images/mountains-6522018_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* General Style */
+.black-box {
+    background: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px 5px;
+    width: 33.33%;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: oblique;
+}
+.card {
+    background: turquoise;
+    border: 3px solid green;
+    border-radius: 25px;
+    color: blue;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Header Style */
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+}
+header h1 {
+    font-size: 1.7rem !important;
+    font-weight: bold;
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+header ul li {
+    display: inline-block;
+}
+header ul a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+/* Registration-Offer Section */
+main section#reg-ofr {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+}
+/* Offer */
+main section#reg-ofr div#offer {
+    background: darkturquoise;
+    border: 5px solid grey;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    align-self: center;
+}
+main section#reg-ofr div#offer p {
+    padding: 40px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+main section#reg-ofr div#offer hr {
+    width: 94%;
+    color: lightgray;
+}
+/* Registration */
+main section#reg-ofr div#register {
+    border: 10px dashed red;
+    color: lightsalmon;
+    background-color: #fff;
+    /* justify-self: stretch; */
+}
+main section#reg-ofr div#register h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+main section#reg-ofr div#register form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+}
+main section#reg-ofr div#register form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+main section#reg-ofr div#register form input {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 80%;
+}
+main section#reg-ofr div#register form a {
+    margin-top: 15px;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+/* Menu Section */
+main section#menu {
+    margin-top: 30px;
+}
+main section#menu h2 {
+    margin: 0 auto;
+}
+main section#menu div.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section#menu div.cards div.card {
+    width: 30%;
+}
+
+main section#menu div.cards div.card h3 {
+    font-size: 2rem;
+}
+
+main section#menu div.cards div.card hr {
+    color: grey;
+}
+
+main section#menu div.cards div.card ul {
+    text-align: left;
+}
+main section#menu div.cards div.card ul li div {
+    text-align: center;
+}
